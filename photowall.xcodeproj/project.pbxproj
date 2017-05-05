@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FBCAF1F1EBC634200C5C672 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBCAF1E1EBC634200C5C672 /* main.m */; };
+		3FBCAF221EBC634200C5C672 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBCAF211EBC634200C5C672 /* AppDelegate.m */; };
+		3FBCAF251EBC634200C5C672 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBCAF241EBC634200C5C672 /* ViewController.m */; };
+		3FBCAF281EBC634200C5C672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBCAF261EBC634200C5C672 /* Main.storyboard */; };
+		3FBCAF2B1EBC634200C5C672 /* photowall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FBCAF291EBC634200C5C672 /* photowall.xcdatamodeld */; };
+		3FBCAF2D1EBC634200C5C672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBCAF2C1EBC634200C5C672 /* Assets.xcassets */; };
+		3FBCAF301EBC634200C5C672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBCAF2E1EBC634200C5C672 /* LaunchScreen.storyboard */; };
+		3FBCAF3B1EBC634200C5C672 /* photowallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBCAF3A1EBC634200C5C672 /* photowallTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FBCAF371EBC634200C5C672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FBCAF121EBC634100C5C672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBCAF191EBC634100C5C672;
+			remoteInfo = photowall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FBCAF1A1EBC634200C5C672 /* photowall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photowall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBCAF1E1EBC634200C5C672 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FBCAF201EBC634200C5C672 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FBCAF211EBC634200C5C672 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FBCAF231EBC634200C5C672 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FBCAF241EBC634200C5C672 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FBCAF271EBC634200C5C672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FBCAF2A1EBC634200C5C672 /* photowall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = photowall.xcdatamodel; sourceTree = "<group>"; };
+		3FBCAF2C1EBC634200C5C672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FBCAF2F1EBC634200C5C672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FBCAF311EBC634200C5C672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBCAF361EBC634200C5C672 /* photowallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photowallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBCAF3A1EBC634200C5C672 /* photowallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = photowallTests.m; sourceTree = "<group>"; };
+		3FBCAF3C1EBC634200C5C672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FBCAF171EBC634100C5C672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBCAF331EBC634200C5C672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FBCAF111EBC634100C5C672 = {
+			isa = PBXGroup;
+			children = (
+				3FBCAF1C1EBC634200C5C672 /* photowall */,
+				3FBCAF391EBC634200C5C672 /* photowallTests */,
+				3FBCAF1B1EBC634200C5C672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FBCAF1B1EBC634200C5C672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FBCAF1A1EBC634200C5C672 /* photowall.app */,
+				3FBCAF361EBC634200C5C672 /* photowallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FBCAF1C1EBC634200C5C672 /* photowall */ = {
+			isa = PBXGroup;
+			children = (
+				3FBCAF201EBC634200C5C672 /* AppDelegate.h */,
+				3FBCAF211EBC634200C5C672 /* AppDelegate.m */,
+				3FBCAF231EBC634200C5C672 /* ViewController.h */,
+				3FBCAF241EBC634200C5C672 /* ViewController.m */,
+				3FBCAF261EBC634200C5C672 /* Main.storyboard */,
+				3FBCAF2C1EBC634200C5C672 /* Assets.xcassets */,
+				3FBCAF2E1EBC634200C5C672 /* LaunchScreen.storyboard */,
+				3FBCAF311EBC634200C5C672 /* Info.plist */,
+				3FBCAF291EBC634200C5C672 /* photowall.xcdatamodeld */,
+				3FBCAF1D1EBC634200C5C672 /* Supporting Files */,
+			);
+			path = photowall;
+			sourceTree = "<group>";
+		};
+		3FBCAF1D1EBC634200C5C672 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FBCAF1E1EBC634200C5C672 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FBCAF391EBC634200C5C672 /* photowallTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FBCAF3A1EBC634200C5C672 /* photowallTests.m */,
+				3FBCAF3C1EBC634200C5C672 /* Info.plist */,
+			);
+			path = photowallTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FBCAF191EBC634100C5C672 /* photowall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBCAF3F1EBC634200C5C672 /* Build configuration list for PBXNativeTarget "photowall" */;
+			buildPhases = (
+				3FBCAF161EBC634100C5C672 /* Sources */,
+				3FBCAF171EBC634100C5C672 /* Frameworks */,
+				3FBCAF181EBC634100C5C672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = photowall;
+			productName = photowall;
+			productReference = 3FBCAF1A1EBC634200C5C672 /* photowall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FBCAF351EBC634200C5C672 /* photowallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBCAF421EBC634200C5C672 /* Build configuration list for PBXNativeTarget "photowallTests" */;
+			buildPhases = (
+				3FBCAF321EBC634200C5C672 /* Sources */,
+				3FBCAF331EBC634200C5C672 /* Frameworks */,
+				3FBCAF341EBC634200C5C672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FBCAF381EBC634200C5C672 /* PBXTargetDependency */,
+			);
+			name = photowallTests;
+			productName = photowallTests;
+			productReference = 3FBCAF361EBC634200C5C672 /* photowallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FBCAF121EBC634100C5C672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = naidy;
+				TargetAttributes = {
+					3FBCAF191EBC634100C5C672 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					3FBCAF351EBC634200C5C672 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FBCAF191EBC634100C5C672;
+					};
+				};
+			};
+			buildConfigurationList = 3FBCAF151EBC634100C5C672 /* Build configuration list for PBXProject "photowall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FBCAF111EBC634100C5C672;
+			productRefGroup = 3FBCAF1B1EBC634200C5C672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FBCAF191EBC634100C5C672 /* photowall */,
+				3FBCAF351EBC634200C5C672 /* photowallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FBCAF181EBC634100C5C672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBCAF301EBC634200C5C672 /* LaunchScreen.storyboard in Resources */,
+				3FBCAF2D1EBC634200C5C672 /* Assets.xcassets in Resources */,
+				3FBCAF281EBC634200C5C672 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBCAF341EBC634200C5C672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FBCAF161EBC634100C5C672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBCAF2B1EBC634200C5C672 /* photowall.xcdatamodeld in Sources */,
+				3FBCAF251EBC634200C5C672 /* ViewController.m in Sources */,
+				3FBCAF221EBC634200C5C672 /* AppDelegate.m in Sources */,
+				3FBCAF1F1EBC634200C5C672 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBCAF321EBC634200C5C672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBCAF3B1EBC634200C5C672 /* photowallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FBCAF381EBC634200C5C672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FBCAF191EBC634100C5C672 /* photowall */;
+			targetProxy = 3FBCAF371EBC634200C5C672 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FBCAF261EBC634200C5C672 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FBCAF271EBC634200C5C672 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FBCAF2E1EBC634200C5C672 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FBCAF2F1EBC634200C5C672 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FBCAF3D1EBC634200C5C672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FBCAF3E1EBC634200C5C672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FBCAF401EBC634200C5C672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = photowall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naidy.photowall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FBCAF411EBC634200C5C672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = photowall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naidy.photowall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FBCAF431EBC634200C5C672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = photowallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naidy.photowallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photowall.app/photowall";
+			};
+			name = Debug;
+		};
+		3FBCAF441EBC634200C5C672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = photowallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naidy.photowallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photowall.app/photowall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FBCAF151EBC634100C5C672 /* Build configuration list for PBXProject "photowall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBCAF3D1EBC634200C5C672 /* Debug */,
+				3FBCAF3E1EBC634200C5C672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBCAF3F1EBC634200C5C672 /* Build configuration list for PBXNativeTarget "photowall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBCAF401EBC634200C5C672 /* Debug */,
+				3FBCAF411EBC634200C5C672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FBCAF421EBC634200C5C672 /* Build configuration list for PBXNativeTarget "photowallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBCAF431EBC634200C5C672 /* Debug */,
+				3FBCAF441EBC634200C5C672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FBCAF291EBC634200C5C672 /* photowall.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FBCAF2A1EBC634200C5C672 /* photowall.xcdatamodel */,
+			);
+			currentVersion = 3FBCAF2A1EBC634200C5C672 /* photowall.xcdatamodel */;
+			path = photowall.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3FBCAF121EBC634100C5C672 /* Project object */;
+}
