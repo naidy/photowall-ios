@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kI8-4F-vgF">
+                    <rect key="frame" x="68" y="30" width="240" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="3AA-Tz-YZK"/>
+                        <constraint firstAttribute="height" constant="30" id="IaS-2Y-hpy"/>
+                        <constraint firstAttribute="width" constant="240" id="NR1-L4-N4d"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LFj-kx-Bkp">
+                    <rect key="frame" x="67.5" y="70" width="240" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="gSr-TY-aA7"/>
+                        <constraint firstAttribute="width" constant="240" id="l16-g7-CnA"/>
+                        <constraint firstAttribute="height" constant="30" id="mkc-uF-0qI"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fJa-CB-MJV">
+                    <rect key="frame" x="68.5" y="150" width="240" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="KXa-SW-ZIT"/>
+                        <constraint firstAttribute="height" constant="30" id="YVp-X5-Xlo"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ew0-ER-FYt">
+                    <rect key="frame" x="68.5" y="190" width="240" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="8lu-GJ-kNh"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="9HH-Yh-UcA"/>
+                        <constraint firstAttribute="width" constant="240" id="V1t-Eh-Dab"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fig-QD-ZK6">
+                    <rect key="frame" x="128" y="110" width="120" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="5qS-HN-Pjt"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="CtL-v5-6hl"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="JgJ-Tb-KWv"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="30" id="g7a-1u-Nbg"/>
+                        <constraint firstAttribute="height" constant="30" id="hvY-eg-dV9"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y6g-TO-rIy">
+                    <rect key="frame" x="127.5" y="230" width="120" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="0wG-2o-Mza"/>
+                        <constraint firstAttribute="width" constant="120" id="oeH-kU-ch4"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xEc-ZI-Rlm">
+                    <rect key="frame" x="60" y="366" width="256" height="256"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="256" id="Lh6-AX-ORF"/>
+                        <constraint firstAttribute="width" constant="256" id="XHp-zN-EED"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xEc-ZI-Rlm" firstAttribute="centerX" secondItem="fJa-CB-MJV" secondAttribute="centerX" id="3Q4-nn-0XG"/>
+                <constraint firstItem="xEc-ZI-Rlm" firstAttribute="centerX" secondItem="ew0-ER-FYt" secondAttribute="centerX" id="4Aq-wO-KgG"/>
+                <constraint firstItem="Y6g-TO-rIy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="DHf-4V-WsS"/>
+                <constraint firstItem="LFj-kx-Bkp" firstAttribute="centerX" secondItem="Y6g-TO-rIy" secondAttribute="centerX" id="ET2-C7-q5k"/>
+                <constraint firstItem="xEc-ZI-Rlm" firstAttribute="centerX" secondItem="Y6g-TO-rIy" secondAttribute="centerX" id="HLU-sb-XaF"/>
+                <constraint firstItem="kI8-4F-vgF" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="KOl-kj-yDt"/>
+                <constraint firstItem="ew0-ER-FYt" firstAttribute="top" secondItem="fJa-CB-MJV" secondAttribute="bottom" constant="10" id="KkZ-hY-Qt3"/>
+                <constraint firstItem="fig-QD-ZK6" firstAttribute="top" secondItem="LFj-kx-Bkp" secondAttribute="bottom" constant="10" id="L67-L6-Unb"/>
+                <constraint firstItem="kI8-4F-vgF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="30" id="VPE-DE-h8v"/>
+                <constraint firstItem="fig-QD-ZK6" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="rJA-UJ-EdM"/>
+                <constraint firstAttribute="bottom" secondItem="xEc-ZI-Rlm" secondAttribute="bottom" constant="45" id="seS-yi-UwI"/>
+                <constraint firstItem="Y6g-TO-rIy" firstAttribute="top" secondItem="ew0-ER-FYt" secondAttribute="bottom" constant="10" id="t0r-r0-4gO"/>
+                <constraint firstItem="fJa-CB-MJV" firstAttribute="top" secondItem="fig-QD-ZK6" secondAttribute="bottom" constant="10" id="vNU-V9-xPA"/>
+                <constraint firstItem="LFj-kx-Bkp" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vnJ-ah-81S"/>
+                <constraint firstItem="LFj-kx-Bkp" firstAttribute="top" secondItem="kI8-4F-vgF" secondAttribute="bottom" constant="10" id="wYV-6j-Yp2"/>
+                <constraint firstItem="fJa-CB-MJV" firstAttribute="top" secondItem="fig-QD-ZK6" secondAttribute="bottom" constant="10" id="yuE-zM-038"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
