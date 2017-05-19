@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F040C411ECEE82000921535 /* _User.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F040C401ECEE82000921535 /* _User.m */; };
+		3F040C441ECEE82800921535 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F040C431ECEE82800921535 /* User.m */; };
 		3FB57DCE1EC5995100EFF986 /* RestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB57DCD1EC5995100EFF986 /* RestClient.m */; };
 		3FB57DD11EC59A3D00EFF986 /* RestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB57DD01EC59A3D00EFF986 /* RestRequest.m */; };
 		3FB57DD41EC5A0F400EFF986 /* RestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB57DD31EC5A0F400EFF986 /* RestResponse.m */; };
@@ -38,6 +40,10 @@
 /* Begin PBXFileReference section */
 		06157D66674E9434DA20627A /* Pods_photowall_photowallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photowall_photowallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB42B00587702B1E03A984E /* Pods-photowall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photowall.release.xcconfig"; path = "Pods/Target Support Files/Pods-photowall/Pods-photowall.release.xcconfig"; sourceTree = "<group>"; };
+		3F040C3F1ECEE82000921535 /* _User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _User.h; path = CoreData/_User.h; sourceTree = "<group>"; };
+		3F040C401ECEE82000921535 /* _User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _User.m; path = CoreData/_User.m; sourceTree = "<group>"; };
+		3F040C421ECEE82800921535 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Model/User.h; sourceTree = "<group>"; };
+		3F040C431ECEE82800921535 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Model/User.m; sourceTree = "<group>"; };
 		3FB57DCC1EC5995100EFF986 /* RestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestClient.h; path = RestClient/RestClient.h; sourceTree = "<group>"; };
 		3FB57DCD1EC5995100EFF986 /* RestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestClient.m; path = RestClient/RestClient.m; sourceTree = "<group>"; };
 		3FB57DCF1EC59A3D00EFF986 /* RestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestRequest.h; path = RestClient/RestRequest.h; sourceTree = "<group>"; };
@@ -87,9 +93,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F040C2F1ECED2E500921535 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3F040C3F1ECEE82000921535 /* _User.h */,
+				3F040C401ECEE82000921535 /* _User.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
 		3FB57DC91EC5989000EFF986 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3F040C421ECEE82800921535 /* User.h */,
+				3F040C431ECEE82800921535 /* User.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -147,6 +164,7 @@
 		3FBCAF1C1EBC634200C5C672 /* photowall */ = {
 			isa = PBXGroup;
 			children = (
+				3F040C2F1ECED2E500921535 /* CoreData */,
 				3FB57DCB1EC598A600EFF986 /* RestClient */,
 				3FB57DCA1EC598A000EFF986 /* View */,
 				3FB57DC91EC5989000EFF986 /* Model */,
@@ -405,7 +423,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F040C411ECEE82000921535 /* _User.m in Sources */,
 				3FBCAF2B1EBC634200C5C672 /* photowall.xcdatamodeld in Sources */,
+				3F040C441ECEE82800921535 /* User.m in Sources */,
 				3FB57DD11EC59A3D00EFF986 /* RestRequest.m in Sources */,
 				3FB57DD41EC5A0F400EFF986 /* RestResponse.m in Sources */,
 				3FBCAF251EBC634200C5C672 /* ViewController.m in Sources */,
