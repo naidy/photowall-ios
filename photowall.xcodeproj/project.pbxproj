@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F040C411ECEE82000921535 /* _User.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F040C401ECEE82000921535 /* _User.m */; };
-		3F040C441ECEE82800921535 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F040C431ECEE82800921535 /* User.m */; };
 		3FB57DCE1EC5995100EFF986 /* RestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB57DCD1EC5995100EFF986 /* RestClient.m */; };
 		3FB57DD11EC59A3D00EFF986 /* RestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB57DD01EC59A3D00EFF986 /* RestRequest.m */; };
 		3FB57DD41EC5A0F400EFF986 /* RestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB57DD31EC5A0F400EFF986 /* RestResponse.m */; };
 		3FB57DD81EC5AA4400EFF986 /* RestRequestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB57DD71EC5AA4400EFF986 /* RestRequestTest.m */; };
 		3FB57DDB1EC5AE4500EFF986 /* MaskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB57DDA1EC5AE4500EFF986 /* MaskView.xib */; };
-		3FB57DDD1EC5B1ED00EFF986 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB57DDC1EC5B1ED00EFF986 /* LoginView.xib */; };
 		3FBCAF1F1EBC634200C5C672 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBCAF1E1EBC634200C5C672 /* main.m */; };
 		3FBCAF221EBC634200C5C672 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBCAF211EBC634200C5C672 /* AppDelegate.m */; };
 		3FBCAF251EBC634200C5C672 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBCAF241EBC634200C5C672 /* ViewController.m */; };
@@ -24,6 +21,25 @@
 		3FBCAF301EBC634200C5C672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBCAF2E1EBC634200C5C672 /* LaunchScreen.storyboard */; };
 		3FBCAF3B1EBC634200C5C672 /* photowallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBCAF3A1EBC634200C5C672 /* photowallTests.m */; };
 		AB87ADE8709655A5981C2B35 /* Pods_photowall_photowallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06157D66674E9434DA20627A /* Pods_photowall_photowallTests.framework */; };
+		C26909E31ED8084A00C82988 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C26909E21ED8084A00C82988 /* User.m */; };
+		C26909E61ED8088000C82988 /* _User.m in Sources */ = {isa = PBXBuildFile; fileRef = C26909E51ED8088000C82988 /* _User.m */; };
+		C26909F01ED8141E00C82988 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26909EE1ED8141E00C82988 /* LoginViewController.m */; };
+		C26909F11ED8141E00C82988 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C26909EF1ED8141E00C82988 /* LoginView.xib */; };
+		C26909F31ED8177100C82988 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C26909F21ED8177100C82988 /* AccountManager.m */; };
+		C2690A2B1ED81CEA00C82988 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2690A261ED81CEA00C82988 /* UserManager.m */; };
+		C2690A3A1ED81D3700C82988 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C2690A2D1ED81D3700C82988 /* NSDate+Utils.m */; };
+		C2690A3B1ED81D3700C82988 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C2690A2F1ED81D3700C82988 /* NSString+Utils.m */; };
+		C2690A3D1ED81D3700C82988 /* UIColor+Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = C2690A331ED81D3700C82988 /* UIColor+Defaults.m */; };
+		C2690A3E1ED81D3700C82988 /* UIImageView+WebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C2690A351ED81D3700C82988 /* UIImageView+WebImage.m */; };
+		C2690A3F1ED81D3700C82988 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C2690A371ED81D3700C82988 /* UIView+Utils.m */; };
+		C2690A401ED81D3700C82988 /* UIViewController+Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = C2690A391ED81D3700C82988 /* UIViewController+Mask.m */; };
+		C2690A431ED81D5E00C82988 /* KeyChainSecuredAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = C2690A421ED81D5E00C82988 /* KeyChainSecuredAuthenticator.m */; };
+		C2690A541ED81F6500C82988 /* FriendsListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2690A4E1ED81F6500C82988 /* FriendsListView.xib */; };
+		C2690A551ED81F6500C82988 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2690A501ED81F6500C82988 /* FriendsViewController.m */; };
+		C2690A561ED81F6500C82988 /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2690A511ED81F6500C82988 /* RootView.xib */; };
+		C2690A571ED81F6500C82988 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2690A531ED81F6500C82988 /* RootViewController.m */; };
+		C2A28FBE1ED823E000EAD283 /* FriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A28FBC1ED823E000EAD283 /* FriendCell.m */; };
+		C2A28FBF1ED823E000EAD283 /* FriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2A28FBD1ED823E000EAD283 /* FriendCell.xib */; };
 		D71B467BD45C49D49C837219 /* Pods_photowall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8DDA05AD4FB0E3B599107C /* Pods_photowall.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,10 +56,6 @@
 /* Begin PBXFileReference section */
 		06157D66674E9434DA20627A /* Pods_photowall_photowallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photowall_photowallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB42B00587702B1E03A984E /* Pods-photowall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photowall.release.xcconfig"; path = "Pods/Target Support Files/Pods-photowall/Pods-photowall.release.xcconfig"; sourceTree = "<group>"; };
-		3F040C3F1ECEE82000921535 /* _User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _User.h; path = CoreData/_User.h; sourceTree = "<group>"; };
-		3F040C401ECEE82000921535 /* _User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _User.m; path = CoreData/_User.m; sourceTree = "<group>"; };
-		3F040C421ECEE82800921535 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Model/User.h; sourceTree = "<group>"; };
-		3F040C431ECEE82800921535 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Model/User.m; sourceTree = "<group>"; };
 		3FB57DCC1EC5995100EFF986 /* RestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestClient.h; path = RestClient/RestClient.h; sourceTree = "<group>"; };
 		3FB57DCD1EC5995100EFF986 /* RestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestClient.m; path = RestClient/RestClient.m; sourceTree = "<group>"; };
 		3FB57DCF1EC59A3D00EFF986 /* RestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestRequest.h; path = RestClient/RestRequest.h; sourceTree = "<group>"; };
@@ -52,7 +64,6 @@
 		3FB57DD31EC5A0F400EFF986 /* RestResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestResponse.m; path = RestClient/RestResponse.m; sourceTree = "<group>"; };
 		3FB57DD71EC5AA4400EFF986 /* RestRequestTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestRequestTest.m; path = RestClient/RestRequestTest.m; sourceTree = "<group>"; };
 		3FB57DDA1EC5AE4500EFF986 /* MaskView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MaskView.xib; path = View/MaskView.xib; sourceTree = "<group>"; };
-		3FB57DDC1EC5B1ED00EFF986 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginView.xib; path = View/LoginView.xib; sourceTree = "<group>"; };
 		3FBCAF1A1EBC634200C5C672 /* photowall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photowall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBCAF1E1EBC634200C5C672 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FBCAF201EBC634200C5C672 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +81,40 @@
 		7482D5EB7B18AFAFB7D354E4 /* Pods-photowall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photowall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photowall/Pods-photowall.debug.xcconfig"; sourceTree = "<group>"; };
 		7A8DDA05AD4FB0E3B599107C /* Pods_photowall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photowall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D27B1C28C75664BA6BA7B1E /* Pods-photowall-photowallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photowall-photowallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photowall-photowallTests/Pods-photowall-photowallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C26909E11ED8084A00C82988 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Model/User.h; sourceTree = "<group>"; };
+		C26909E21ED8084A00C82988 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Model/User.m; sourceTree = "<group>"; };
+		C26909E41ED8088000C82988 /* _User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _User.h; path = CoreData/_User.h; sourceTree = "<group>"; };
+		C26909E51ED8088000C82988 /* _User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _User.m; path = CoreData/_User.m; sourceTree = "<group>"; };
+		C26909ED1ED8141E00C82988 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = View/LoginViewController.h; sourceTree = "<group>"; };
+		C26909EE1ED8141E00C82988 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = View/LoginViewController.m; sourceTree = "<group>"; };
+		C26909EF1ED8141E00C82988 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginView.xib; path = View/LoginView.xib; sourceTree = "<group>"; };
+		C26909F21ED8177100C82988 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountManager.m; path = Model/AccountManager.m; sourceTree = "<group>"; };
+		C26909F41ED8178D00C82988 /* AccountManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AccountManager.h; path = Model/AccountManager.h; sourceTree = "<group>"; };
+		C2690A251ED81CEA00C82988 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserManager.h; path = Model/UserManager.h; sourceTree = "<group>"; };
+		C2690A261ED81CEA00C82988 /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserManager.m; path = Model/UserManager.m; sourceTree = "<group>"; };
+		C2690A2C1ED81D3700C82988 /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Utils.h"; path = "Utils/NSDate+Utils.h"; sourceTree = "<group>"; };
+		C2690A2D1ED81D3700C82988 /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Utils.m"; path = "Utils/NSDate+Utils.m"; sourceTree = "<group>"; };
+		C2690A2E1ED81D3700C82988 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Utils.h"; path = "Utils/NSString+Utils.h"; sourceTree = "<group>"; };
+		C2690A2F1ED81D3700C82988 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Utils.m"; path = "Utils/NSString+Utils.m"; sourceTree = "<group>"; };
+		C2690A321ED81D3700C82988 /* UIColor+Defaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Defaults.h"; path = "Utils/UIColor+Defaults.h"; sourceTree = "<group>"; };
+		C2690A331ED81D3700C82988 /* UIColor+Defaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Defaults.m"; path = "Utils/UIColor+Defaults.m"; sourceTree = "<group>"; };
+		C2690A341ED81D3700C82988 /* UIImageView+WebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebImage.h"; path = "Utils/UIImageView+WebImage.h"; sourceTree = "<group>"; };
+		C2690A351ED81D3700C82988 /* UIImageView+WebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebImage.m"; path = "Utils/UIImageView+WebImage.m"; sourceTree = "<group>"; };
+		C2690A361ED81D3700C82988 /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Utils.h"; path = "Utils/UIView+Utils.h"; sourceTree = "<group>"; };
+		C2690A371ED81D3700C82988 /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Utils.m"; path = "Utils/UIView+Utils.m"; sourceTree = "<group>"; };
+		C2690A381ED81D3700C82988 /* UIViewController+Mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Mask.h"; path = "Utils/UIViewController+Mask.h"; sourceTree = "<group>"; };
+		C2690A391ED81D3700C82988 /* UIViewController+Mask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Mask.m"; path = "Utils/UIViewController+Mask.m"; sourceTree = "<group>"; };
+		C2690A411ED81D5E00C82988 /* KeyChainSecuredAuthenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyChainSecuredAuthenticator.h; path = RestClient/KeyChainSecuredAuthenticator.h; sourceTree = "<group>"; };
+		C2690A421ED81D5E00C82988 /* KeyChainSecuredAuthenticator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyChainSecuredAuthenticator.m; path = RestClient/KeyChainSecuredAuthenticator.m; sourceTree = "<group>"; };
+		C2690A4E1ED81F6500C82988 /* FriendsListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FriendsListView.xib; path = View/FriendsListView.xib; sourceTree = "<group>"; };
+		C2690A4F1ED81F6500C82988 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendsViewController.h; path = View/FriendsViewController.h; sourceTree = "<group>"; };
+		C2690A501ED81F6500C82988 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendsViewController.m; path = View/FriendsViewController.m; sourceTree = "<group>"; };
+		C2690A511ED81F6500C82988 /* RootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootView.xib; path = View/RootView.xib; sourceTree = "<group>"; };
+		C2690A521ED81F6500C82988 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = View/RootViewController.h; sourceTree = "<group>"; };
+		C2690A531ED81F6500C82988 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = View/RootViewController.m; sourceTree = "<group>"; };
+		C2A28FBB1ED823E000EAD283 /* FriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendCell.h; path = View/FriendCell.h; sourceTree = "<group>"; };
+		C2A28FBC1ED823E000EAD283 /* FriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendCell.m; path = View/FriendCell.m; sourceTree = "<group>"; };
+		C2A28FBD1ED823E000EAD283 /* FriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FriendCell.xib; path = View/FriendCell.xib; sourceTree = "<group>"; };
 		C90B33180240BC42E10C2F25 /* Pods-photowall-photowallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photowall-photowallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-photowall-photowallTests/Pods-photowall-photowallTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,8 +141,8 @@
 		3F040C2F1ECED2E500921535 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				3F040C3F1ECEE82000921535 /* _User.h */,
-				3F040C401ECEE82000921535 /* _User.m */,
+				C26909E41ED8088000C82988 /* _User.h */,
+				C26909E51ED8088000C82988 /* _User.m */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -105,8 +150,12 @@
 		3FB57DC91EC5989000EFF986 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3F040C421ECEE82800921535 /* User.h */,
-				3F040C431ECEE82800921535 /* User.m */,
+				C2690A251ED81CEA00C82988 /* UserManager.h */,
+				C2690A261ED81CEA00C82988 /* UserManager.m */,
+				C26909E11ED8084A00C82988 /* User.h */,
+				C26909E21ED8084A00C82988 /* User.m */,
+				C26909F21ED8177100C82988 /* AccountManager.m */,
+				C26909F41ED8178D00C82988 /* AccountManager.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -114,8 +163,19 @@
 		3FB57DCA1EC598A000EFF986 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C2A28FBB1ED823E000EAD283 /* FriendCell.h */,
+				C2A28FBC1ED823E000EAD283 /* FriendCell.m */,
+				C2A28FBD1ED823E000EAD283 /* FriendCell.xib */,
+				C2690A4E1ED81F6500C82988 /* FriendsListView.xib */,
+				C2690A4F1ED81F6500C82988 /* FriendsViewController.h */,
+				C2690A501ED81F6500C82988 /* FriendsViewController.m */,
+				C2690A511ED81F6500C82988 /* RootView.xib */,
+				C2690A521ED81F6500C82988 /* RootViewController.h */,
+				C2690A531ED81F6500C82988 /* RootViewController.m */,
 				3FB57DDA1EC5AE4500EFF986 /* MaskView.xib */,
-				3FB57DDC1EC5B1ED00EFF986 /* LoginView.xib */,
+				C26909ED1ED8141E00C82988 /* LoginViewController.h */,
+				C26909EE1ED8141E00C82988 /* LoginViewController.m */,
+				C26909EF1ED8141E00C82988 /* LoginView.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -123,6 +183,8 @@
 		3FB57DCB1EC598A600EFF986 /* RestClient */ = {
 			isa = PBXGroup;
 			children = (
+				C2690A411ED81D5E00C82988 /* KeyChainSecuredAuthenticator.h */,
+				C2690A421ED81D5E00C82988 /* KeyChainSecuredAuthenticator.m */,
 				3FB57DCC1EC5995100EFF986 /* RestClient.h */,
 				3FB57DCD1EC5995100EFF986 /* RestClient.m */,
 				3FB57DCF1EC59A3D00EFF986 /* RestRequest.h */,
@@ -164,6 +226,7 @@
 		3FBCAF1C1EBC634200C5C672 /* photowall */ = {
 			isa = PBXGroup;
 			children = (
+				C26909F51ED8184000C82988 /* Utils */,
 				3F040C2F1ECED2E500921535 /* CoreData */,
 				3FB57DCB1EC598A600EFF986 /* RestClient */,
 				3FB57DCA1EC598A000EFF986 /* View */,
@@ -218,6 +281,25 @@
 				C90B33180240BC42E10C2F25 /* Pods-photowall-photowallTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C26909F51ED8184000C82988 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C2690A2C1ED81D3700C82988 /* NSDate+Utils.h */,
+				C2690A2D1ED81D3700C82988 /* NSDate+Utils.m */,
+				C2690A2E1ED81D3700C82988 /* NSString+Utils.h */,
+				C2690A2F1ED81D3700C82988 /* NSString+Utils.m */,
+				C2690A321ED81D3700C82988 /* UIColor+Defaults.h */,
+				C2690A331ED81D3700C82988 /* UIColor+Defaults.m */,
+				C2690A341ED81D3700C82988 /* UIImageView+WebImage.h */,
+				C2690A351ED81D3700C82988 /* UIImageView+WebImage.m */,
+				C2690A361ED81D3700C82988 /* UIView+Utils.h */,
+				C2690A371ED81D3700C82988 /* UIView+Utils.m */,
+				C2690A381ED81D3700C82988 /* UIViewController+Mask.h */,
+				C2690A391ED81D3700C82988 /* UIViewController+Mask.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,11 +390,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2690A561ED81F6500C82988 /* RootView.xib in Resources */,
+				C26909F11ED8141E00C82988 /* LoginView.xib in Resources */,
 				3FB57DDB1EC5AE4500EFF986 /* MaskView.xib in Resources */,
+				C2690A541ED81F6500C82988 /* FriendsListView.xib in Resources */,
 				3FBCAF301EBC634200C5C672 /* LaunchScreen.storyboard in Resources */,
 				3FBCAF2D1EBC634200C5C672 /* Assets.xcassets in Resources */,
-				3FB57DDD1EC5B1ED00EFF986 /* LoginView.xib in Resources */,
 				3FBCAF281EBC634200C5C672 /* Main.storyboard in Resources */,
+				C2A28FBF1ED823E000EAD283 /* FriendCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,15 +508,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F040C411ECEE82000921535 /* _User.m in Sources */,
+				C26909E61ED8088000C82988 /* _User.m in Sources */,
+				C26909E31ED8084A00C82988 /* User.m in Sources */,
 				3FBCAF2B1EBC634200C5C672 /* photowall.xcdatamodeld in Sources */,
-				3F040C441ECEE82800921535 /* User.m in Sources */,
+				C2690A3A1ED81D3700C82988 /* NSDate+Utils.m in Sources */,
+				C2690A3F1ED81D3700C82988 /* UIView+Utils.m in Sources */,
+				C2690A3B1ED81D3700C82988 /* NSString+Utils.m in Sources */,
 				3FB57DD11EC59A3D00EFF986 /* RestRequest.m in Sources */,
+				C2690A3D1ED81D3700C82988 /* UIColor+Defaults.m in Sources */,
+				C26909F31ED8177100C82988 /* AccountManager.m in Sources */,
+				C2690A551ED81F6500C82988 /* FriendsViewController.m in Sources */,
+				C2690A2B1ED81CEA00C82988 /* UserManager.m in Sources */,
+				C26909F01ED8141E00C82988 /* LoginViewController.m in Sources */,
 				3FB57DD41EC5A0F400EFF986 /* RestResponse.m in Sources */,
 				3FBCAF251EBC634200C5C672 /* ViewController.m in Sources */,
 				3FBCAF221EBC634200C5C672 /* AppDelegate.m in Sources */,
+				C2690A431ED81D5E00C82988 /* KeyChainSecuredAuthenticator.m in Sources */,
 				3FB57DCE1EC5995100EFF986 /* RestClient.m in Sources */,
+				C2690A571ED81F6500C82988 /* RootViewController.m in Sources */,
 				3FBCAF1F1EBC634200C5C672 /* main.m in Sources */,
+				C2690A401ED81D3700C82988 /* UIViewController+Mask.m in Sources */,
+				C2690A3E1ED81D3700C82988 /* UIImageView+WebImage.m in Sources */,
+				C2A28FBE1ED823E000EAD283 /* FriendCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
